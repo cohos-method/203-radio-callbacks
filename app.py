@@ -8,9 +8,17 @@ import plotly.graph_objs as go
 ########### Define your variables ######
 
 myheading1='How to use callbacks'
-tabtitle = 'xkcd'
-list_of_options=['box plot', 'correlation', 'git commit', 'scatterplot']
-list_of_images=['outlier.png', 'correlation.png', 'gitcommit.jpg', 'scatterplot.png', 'good_code.png']
+tabtitle = 'Cohos - xkcd'
+list_of_options=['How are we populated?'
+, 'What is your  party efficacy?'
+, 'Right or Left?'
+, 'Do you trust the  file  extension?']
+
+list_of_images=['land_mammals_2x.png'
+, 'party_quadrants_2x.png'
+, 'base_rate_2x.png'
+, 'file_extensions_2x.png', 'good_code.png']
+
 sourceurl = 'https://xkcd.com/'
 githublink = 'https://github.com/plotly-dash-apps/203-radio-callbacks'
 
